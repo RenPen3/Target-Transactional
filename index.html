@@ -21,16 +21,19 @@
 
         .main-header {
           width: 100%;
+          text-align: center;
+          white-space: nowrap;
         }
 
-        .header-banner h2 {
-          font-size: 12px;
+        .header-banner {
+          width: 100%;
+          padding: 10px;
         }
 
         .body-text {
           width: 100%;
           max-width: 300px;
-          padding: 0 20px;
+          padding: 0 0 0 15px;
           margin: 0;
           text-align: left;
         }
@@ -43,16 +46,18 @@
 
         .order-sum {
           width: 100%;
-          padding:0 10px;
+          padding:0 0px;
         }
 
-        .one-squares {
-          width: 100px;
-          padding: 10px;
-          max-width: 300px;
-
+        .order-changes {
+          width: 100%;
+          max-width: 200px;
+          /* text-align: center; */
         }
 
+        .main-square1 {
+          width: 100%;
+        }
 
         .health-link {
           padding: 0;
@@ -69,7 +74,7 @@
       <tr>
         <td>
           <!-- Start of Conatiner -->
-          <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; max-width: 600px; padding: 0;">
+          <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; max-width: 600px; padding: 0">
 
           <!-- Start of Main Row -->
 					<tr>
@@ -80,7 +85,7 @@
                 <tr>
                   <td width="50%" align="left" style="text-align:left; padding: 23px 30px;  ">
 
-                    <img src="/images/Target.jpg" alt="Target Logo" width="600" border="0" style="width: 25px;  max-width: 100%; min-width: 25px;">
+                    <img src="/images/Target.jpg" alt="Target Logo" width="600" border="0" style="width: 25px;  ; min-width: 25px;">
 
                   </td>
 
@@ -98,13 +103,13 @@
                 <tr>
                     <td  class="header-banner" width="100%" style="text-align: center; font-family: 'Helvetica', 'Open Sans', sans-serif; background-color: #ffffff;">
 
-                      <h2  style="color:rgb(208, 0, 0); font-size: 35px; font-weight: 800; padding: 30px 0; line-height: 1.1; margin: 0; padding: 0;">We're getting <br> something special ready!</h2>
+                      <h2  style="color:rgb(208, 0, 0); font-size: 26px; font-weight: 800; padding: 30px 0; line-height: 1.1; margin: 0; padding: 0;">We're getting <br> something special ready!</h2>
 
-                      <p style="font-size: 20px; margin: 0; padding: 7px 0;">Placed November, 14 2022</p>
+                      <p style="font-size: 12px; margin: 0; padding: 7px 0;">Placed November, 14 2022</p>
 
                       <img src="/images/TargetBox.jpg" alt="Target Box" width="600" border="0" align="center" style="border: 0; width: 100px; padding: 35px 0 5px 0; max-width: 100%; min-width: 100px; margin: 0;">
 
-                      <p style="font-size: 14px; margin: 0; padding: 0 20px 25px 20px; line-height: 1.4;">Way to tackle that to-do list! We've got it from here. <br> (Hey, we make a plenty great team!)</p>
+                      <p style="font-size: 10px; margin: 0; padding: 0 20px 25px 20px; line-height: 1.4;">Way to tackle that to-do list! We've got it from here. <br> (Hey, we make a plenty great team!)</p>
                       <hr style="width: 74%;">
 
                       </td>
@@ -165,7 +170,7 @@
 
                    
                  
-                      <table class="body-text" width="60%" align="right" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; font-family: 'Helvetica', 'Open Sans', sans-serif;" >
+                      <table class="body-text" width="50%" align="right" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; font-family: 'Helvetica', 'Open Sans', sans-serif;" >
                         <tr>
                           <td style="border-collapse: collapse; padding: 0 10px 0 0; line-height: 1.5;  font-family: 'Helvetica', sans-serif;">
 
@@ -210,7 +215,7 @@
           <!-- Start of Order Summary -->
 					<tr>
 						<td>
-							<table  class="order-sum" width="100%" cellspacing="0" align="center" cellpadding="0" border="0" style="padding:0 0 30px 0; max-width: 200px; background-color: #ffffff; line-height: 2.5; font-family: 'Helvetica', 'Open Sans', sans-serif;">
+							<table  class="order-sum" width="100%" cellspacing="0" align="center" cellpadding="0" border="0" style="padding:0 0 30px 0; max-width: 200px; background-color: #ffffff; line-height: 4; font-family: 'Helvetica', 'Open Sans', sans-serif;">
 
 								<tr>
 									<td>
@@ -268,17 +273,17 @@
         <!-- Start Order Changes -->
         <tr>
           <td>
-            <table class="order-changes" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;background-color: #ffffff; padding: 10px 30px 15px 30px; margin: 0; font-family: 'Helvetica', 'Open Sans', sans-serif;"  >
+            <table  align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;background-color: #ffffff;  margin: 0; font-family: 'Helvetica', 'Open Sans', sans-serif;"  >
               <tr>
-                <td width="100%" align="center" style="padding: 10px 0 10px 0;"  >
+                <td width="100%" align="center" class="order-changes" style="padding: 14px 30px 20px 30px;">
                                                         
-                <img src="/images/TargetBoxCircle.jpg" alt="Target Box" width="600" border="0" style="width: 45px;display: block; max-width: 100%; min-width: 45px;border: 0; text-align: center;">
+                <img src="/images/TargetBoxCircle.jpg" alt="Target Box" width="600" border="0" style="width: 50px;display: block; max-width: 100%; min-width: 50px;border: 0; text-align: center;">
     
-                <h2 style="font-size: 12px; margin: 0; padding: 7px 0 3px 0; font-weight: 500;">Need to make changes? Act fast.</h2>
+                <h2 style="font-size: 12px; margin: 0; padding: 7px 0 5px 0; font-weight: 500;">Need to make changes? Act fast.</h2>
     
                 <h3 style="font-weight: 400; margin: 0; padding: 0 0 5px 0; font-size: 9px; line-height: 1.5; ">We process orders quickly, so you'll want to visit your order details page as soon as possiblie.</h3>
     
-                <button style="padding:3px 15px; font-size: 6px; background-color: #ffffff; border-radius: 3px; border: 1px solid rgb(155, 155, 155);">Visit order details</button>
+                <button style="padding:5px 15px; font-size: 6px; background-color: #ffffff; border-radius: 3px; border: 1px solid rgb(155, 155, 155);">Visit order details</button>
                 </td>
               </tr>
             </table>
@@ -289,7 +294,7 @@
         <!-- Start Save Banner -->
         <tr>
           <td>
-            <table  width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #fafafa; padding: 0 15px; font-family: 'Helvetica', 'Open Sans', sans-serif;"  >
+            <table  width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; padding: 0 15px; font-family: 'Helvetica', 'Open Sans', sans-serif;"  >
               <tr>
                 <td  align="center" style="background-color: #444444; padding: 0;">
                   <h2 style="font-weight: 400; color: #ffffff; padding: 0; font-size: 12px;">Even more great news to <strong>save</strong>.</h2>
@@ -305,25 +310,26 @@
         <!-- Start Store Options -->
       <tr>
       <td>
-      <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+      <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" >
         <tr>
           <td>
-            <table  width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="margin: 0;padding: 14px 14px 0 14px; background-color: #fafafa; font-family: 'Helvetica', 'Open Sans', sans-serif; max-width: 300px;"  >
+            <table class="main-square1" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="margin: 15px 0 0 0;padding:0 16px; font-family: 'Helvetica', 'Open Sans', sans-serif"  >
               <tr>
-                <td class="one-squares" width="50%" align="center" style="border-collapse: collapse; padding: 0 ; text-align: center;">
+                <td class="one-squares" width="50%" align="center" style="border-collapse: collapse; padding: 10px; text-align: center; background-color: #ffffff; margin: 0;  max-width: 200px;">
                                                         
                     
-                  <img src="/images/Targetboxtruck.jpg" alt="" align="center" width="600" border="0" style="width: 80px;max-width: 100%; min-width: 80px; border: 0;">
+                  <img src="/images/Targetboxtruck.jpg" alt="" align="center" width="600" border="0"  style="width: 80px; max-width: 100%; min-width: 80px; border: 0; padding: 15px 0 0 0;">
     
-                  <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 5px 0 0 0;">Free 2-day ship</h3>
+                  <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 10px 0;">Free 2-day ship</h3>
                                                         
                 </td>
                                                         
-                <td class="two-squares" width="100%" align="center" style="border-collapse: collapse;background-color: #fafafa; ;  padding: 0;">
+                <td class="two-squares" width="100%" align="center" style="border-collapse: collapse;background-color: #fafafa;  padding: 10px; margin: 0;">
     
-                  <img src="/images/TargetTag.jpg" alt="Discount Tag" width="600" border="0" style="width: 60px; max-width: 100%; min-width: 60px; border: 0;">
+                  <img src="/images/TargetTag.jpg" alt="Discount Tag" width="600" border="0" style="width: 60px; max-width: 100%; min-width: 60px; border: 0; padding: 15px 0 0 0;">
     
-                <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 0;">Clearance</h3>
+                <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 10px 0;">Clearance</h3>
+
               </td>
             </tr>
           </table>
@@ -332,21 +338,22 @@
 
         <tr>
           <td>
-            <table  class="bottom-squares" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin: 0; padding: 30px 14px 14px 14px; background-color: #fafafa; font-family: 'Helvetica', 'Open Sans', sans-serif; max-width: 300px;"  >
+            <table  class="bottom-squares" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin: 0; padding: 0 16px; background-color: #ffffff; font-family: 'Helvetica', 'Open Sans', sans-serif;"  >
               <tr>
-                <td class="three-squares" width="50%" align="center" style="border-collapse: collapse;background-color: #fafafa; padding: 0; text-align: center;">
+                <td class="three-squares" width="50%" align="center" style="border-collapse: collapse;background-color: #fafafa; padding: 10px; text-align: center;  max-width: 200px;">
                                                         
-                  <img src="/images/Targetapp.jpg" alt="" width="600" border="0" style="width: 60px; max-width: 100%; min-width: 60px; border: 0;">
+                  <img src="/images/Targetapp.jpg" alt="" width="600" border="0" style="width: 70px; max-width: 100%; min-width: 70px; border: 0; padding: 15px 0 0 0;">
     
-                  <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 5px 0 0 0;">Target App</h3>
+                  <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 10px 0;">Target App</h3>
                                                         
                 </td>
                                                         
-                <td class="four-squares" width="100%" align="center" style="border-collapse: collapse;background-color: #f0f0f0; padding: 0;">
+                <td class="four-squares" width="100%" align="center" style="border-collapse: collapse;background-color: #f0f0f0; padding: 10px;">
     
-                <img src="/images/TargetBag.jpg" alt="Discount Tag" width="600" border="0" style="width: 60px; max-width: 100%; min-width: 60px; border: 0;padding: 0 20px 0 0 ;">
+                <img src="/images/TargetBag.jpg" alt="Discount Tag" width="600" border="0" style="width: 60px; max-width: 100%; min-width: 60px; border: 0;padding: 15px 0;">
     
-                <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 0;">Same Day Delivery</h3>
+                <h3 style="font-size: 12px; text-align: center; margin: 0; padding: 10px 0;">Same Day Delivery</h3>
+
               </td>
             </tr>
           </table>
@@ -354,14 +361,14 @@
       </tr> 
     </table>
   </td>
-</tr>
+      </tr>
       <!-- End Store Options -->
 
 
       <!-- Start Store Options 2nd row-->
       <tr>
         <td>
-          <table width="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 0 14px;background-color: #ffffff; font-family: 'Helvetica', 'Open Sans', sans-serif;" >
+          <table width="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 0;background-color: #ffffff; font-family: 'Helvetica', 'Open Sans', sans-serif;" >
 
             <tr>
                                                         
@@ -398,7 +405,7 @@
       <!-- Start Footer-->
      
             <tr>
-              <td width="100%" align="center" style="border-collapse: collapse;background-color: #ffffff; padding: 20px 0; margin: 0; line-height: 1.3; font-family: 'Helvetica', 'Open Sans', sans-serif;">
+              <td width="100%" align="center" style="border-collapse: collapse;background-color: #ffffff; padding: 10px 0; margin: 0; line-height: 1.3; font-family: 'Helvetica', 'Open Sans', sans-serif;">
                 <h5 style="color: #d00000; margin: 0; padding: 0; font-weight: 500; font-size: 9px;">Target.com</h5>
     
                 <h5 style="margin: 0; padding: 0;font-weight: 400; font-size: 8px;"> &copy 2022 Target Brands, Inc.</h5>
@@ -412,10 +419,10 @@
       <!-- Start of Health Plan Link -->
       <tr>
         <td>
-          <table  width="100%" style="background-color: #ffffff; padding: 0 14px 40px 14px;">
+          <table  width="100%" style="background-color: #ffffff; padding: 0;">
             <tr>
               <td>
-                <table  width="100%" style="background-color: #ffffff; margin: 0; border: 1px solid rgb(170, 169, 169); padding: 20px; border-radius: 10px; font-family: 'Helvetica', 'Open Sans', sans-serif;">
+                <table  width="100%" style="background-color: #ffffff; margin: 0; border: 1px solid rgb(170, 169, 169); padding: 10px; border-radius: 10px; font-family: 'Helvetica', 'Open Sans', sans-serif;">
                   <tr>
                     <td  class="health-link" align="left"  width="80%" style="padding: 0; background-color: #ffffff; margin: 0;">
 
